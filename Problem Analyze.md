@@ -4,5 +4,5 @@
 <p>1) Limit drop zones to one puzzle-piece</p>
 <p>2) Need a reset button to refresh the game board</p>
 <h4>Solutions</h4>
-<p></p>
+<p>Add in "if (this.children.length >= 1) {return;}" this will max the drop box to 1 and send the other back to the puzzle holder</p>
 <p></p>
