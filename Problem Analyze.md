@@ -10,3 +10,4 @@
 <p>https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children</p>
 <p>https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild</p>
 <p>https://stackoverflow.com/questions/40413395/limit-number-of-droppable-dragged-items-inside-a-container</p>
+<p>https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget</p>
