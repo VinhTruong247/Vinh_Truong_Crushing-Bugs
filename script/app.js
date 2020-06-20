@@ -36,12 +36,13 @@
 
     }
 
-    function allowDrop(event) {
+   function allowDrop(event) {
         console.log('You can drop now');
-        let droppedImage = event.dataTransfer.getData("draggedImg", this.id);
-        event.target.appendChild(document.querySelector(`#${droppedImage}`));
+        let droppedImage = event.dataTransfer.getData('draggedImg'); 
+        if (event.currentTarget.children.length === 0) {
+            event.target.appendChild(document.querySelector(`#${droppedImage}`));
+        }
     }
-}
 
     buttons.forEach(button => button.addEventListener('click', changeImageSet));
     puzzle.forEach(piece => piece.addEventListener('dragstart', allowDrag));
